@@ -1,0 +1,44 @@
+.bigcard-content {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .bigcard-image {
+        max-width: 371px;
+        margin-right: 55px;
+    }
+
+    .bigcard-theme {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+      color: #A9A9A9;
+      margin-bottom: 12px;
+      max-width: 430px;
+    }
+
+    .bigcard-title {
+      font-size: 32px;
+      margin-bottom: 12px;
+      max-width: 430px;
+    }
+
+    .bigcard-creation {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      color: #A9A9A9;
+      margin-bottom: 12px;
+      max-width: 430px;
+    }
+
+    .bigcard-description {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      margin-bottom: 12px;
+      max-width: 430px;
+      line-height: 24px;
+    }
+  }

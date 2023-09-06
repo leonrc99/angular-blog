@@ -1,1 +1,53 @@
-<p>home works!</p>
+<div class="content">
+
+  <!-- Main article section -->
+  <section class="main-article-section">    
+    <div class="main-article">
+      <div class="main-article-content">
+        <p class="main-up-title">FEATURED ARTICLE</p>
+        <h3 class="main-atc-title">
+          World’s Most Dangerous Technology Ever Made.
+        </h3>
+        <p class="main-creation">Ralph Hawkins - May 7, 2019 (10 mins read)</p>
+        <p class="main-description">
+          Proident aliquip velit qui commodo officia qui consectetur dolor ullamco
+          aliquip elit incididunt. Ea minim ex consectetur excepteur. Ex laborum
+          nostrud mollit sint consectetur Lorem amet aliqua do enim. Commodo duis
+          dolor anim excepteur. In aliquip mollit nulla consequat velit magna.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big cards section -->
+  <section class="bigcard-section">
+    <h3 class="title">Editor’s Picks</h3>
+
+    <div class="title-line"></div>
+  
+    <app-big-card
+      [imgUrl]="imgUrlFirst"
+      [theme]="themeFirst"
+      [title]="titleFirst"
+      [creation]="creationFirst"
+      [description]="descriptionFirst"
+    ></app-big-card>
+
+    <app-big-card
+      [imgUrl]="imgUrlSecond"
+      [theme]="themeSecond"
+      [title]="titleSecond"
+      [creation]="creationSecond"
+      [description]="descriptionSecond"
+    ></app-big-card>
+
+    <app-big-card
+      [imgUrl]="imgUrlThird"
+      [theme]="themeThird"
+      [title]="titleThird"
+      [creation]="creationThird"
+      [description]="descriptionThird"
+    ></app-big-card>
+  </section>
+  
+</div>
